@@ -67,29 +67,8 @@ addToDoButton.addEventListener('click', (event) => {
 })
 }
 
-// Posting comments
-
-function postComment() {
-  document.getElementById("btn-post").addEventListener("click", function () {
-      // Get the comment from the textarea
-      const newComment = document.getElementById("new-comment").value;
-
-      // Create a new paragraph element for the comment
-      const commentContainer = document.getElementById("comment-container");
-      const commentElement = document.createElement("p");
-      commentElement.innerText = newComment;
-
-      // Append the comment to the comment container
-      commentContainer.appendChild(commentElement);
-
-      // Clear the textarea after posting the comment
-      document.getElementById("new-comment").value = "";
-  });
-}
-
 window.onload =() => {
     loadRoutines();
     addForm();
     addTask();
-    postComment();
 };
