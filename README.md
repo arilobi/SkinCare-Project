@@ -12,7 +12,7 @@ The application includes a page that displays a skin care blog that gives tips o
 * And you are all done
 
 ## Live server
-* You can view the web live on [Portfolio](https://github.com/arilobi/portfolio-sdft11/)
+* You can view the web live on [Skin Care Blog](https://arilobi.github.io/SkinCare-Project/)
 
 ## Known Bugs
 The application works perfectly well, no bugs.
@@ -24,6 +24,6 @@ HTML, CSS , GIT, JAVASCRIPT
 email :: arinabulobi@gmail.com
 
 ### License
-*LIcenced under the [MT-licence](https://github.com/arilobi/portfolio-sdft11/blob/master/LICENSE.md)*
+*LIcenced under the [MT-licence](https://arilobi.github.io/SkinCare-Project/blob/master/LICENSE.md)*
 
 Copyright (c) 2024 **Marion Okondo**
