@@ -1,5 +1,5 @@
 function loadRoutines(){
-    fetch('http://localhost:3000/routines')
+    fetch('https://skincare-project.onrender.com/routines')
   .then(response => response.json())
   .then(data => {
     const routinesContainer = document.getElementById('routines-container');
