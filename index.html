@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umiko Secrets</title>
+    <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <div id="header">
+        <h2>Umiko Secrets</h2>
+    </div>
+
+    <section id="navbar">
+        <div>
+            <a href="/">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./shop.html">Shop</a>
+        </div>   
+    </section>
+
+    <!-- MAIN IMAGE -->
+
+    <div class="center">
+      <img src="./images/coverphoto.png" alt="skin care products on a counter">
+    </div>
+
+    <!-- ABOUT -->
+<br>
+
+    <div class="paragraph">
+      <h3>About Umiko Secrets</h3>
+      <h3>____________________</h3>
+      <br>
+      <p>Umiko Secrets was designed to help people of all races regardless of their gender to help them understand their skin and know how to care for it according to their skin types. 
+      It's very important for everyone to understand this so that they can be able to achieve their dream skin. In this blog, we have three different posts talking about the three major different skin types and what you can do after learning which skin type you have.</p>
+      <br>
+      <p>Want to know what skin type you have? Fill in the checkbox form below!</p>
+    </div>
+
+    <br>
+    <div class="checkbox">
+      <a href="./checkboxform.html">
+        <button id="button">Click me</button>
+      </a>
+    </div>
+
+    <br>
+ <!-- BLOG POSTS-->
+ 
+      <div class="heading">
+        <h3>Blogs</h3>
+        <h3>____________________</h3>
+      </div>
+
+      <br>
+
+      <div id="routines-container">
+        <div class="row">
+          <div class="column">
+            <a href="./Dry Skin.html" target="_blank">
+             <img src="./images/dryskin.png" alt="Dry Skin Image">
+            </a>
+          </div>
+          <div class="column">
+            <a href="./Oily Skin.html" target="_blank">
+             <img src="./images/oilyskin.png" alt="Oily Skin Image">
+            </a>
+          </div>
+          <div class="column">
+            <a href="./Combination Skin.html" target="_blank">
+             <img src="./images/combined.png" alt="Combined Skin Image">
+            </a>
+          </div>             
+      </div>
+ 
+      <br>
+    
+      <!-- FORM -->
+
+    <div class="form">
+      <h3>Sign up to for a consultation</h3>
+      <h3>______________________________</h3>
+    </div>
+
+    <br><br>
+  
+        <div class="sign_up">
+          <form id="add_blog_form">
+            <div class="form_label">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required placeholder="Name">
+            </div>
+
+            <br>
+
+            <div class="form_label">
+                <label for="email">Email:</label><input type="email" id="email" required placeholder="Email">
+            </div>
+
+            <br>
+
+            <div class="button_btn">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+
+        <br><br>
+
+      <!-- CHECKLIST PART-->
+
+      <div class="position">
+      <h2>Start your skin care routine now!</h2>
+      <h2>______________________________</h2>
+      <br>
+        <div class="routine-checklist">
+          <p>Use this to-do list to write down your routine then check the list out after you're done with any of the steps. You can also set the time--whether it's morning or night to keep yourself organized.</p>
+        </div>
+
+      <br>
+      <div class="container">
+        <input id="inputField" type="text" placeholder="add routine">
+
+        <!-- Creating a button -->
+        <button id="addToDo">Next?</button>
+        <br>
+        <br>
+      </div>
+
+        <!-- Giving my user a option to choose the priority of his tasks whether high, Medium or low -->
+        <div class="priority">
+          <select id="important">
+            <option>Morning</option>
+            <option>Night</option>
+          </select>
+        </div>
+
+        <!-- Where the to-do lists will be placed after inputing in the inputField section -->
+        <div class="to-dos" id="toDoContainer">
+        </div>
+      </div>
+
+      <br>
+      <!-- FOOTER -->
+
+      <section class="footer">
+        <div>
+            <a href="/">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+        </div><br>
+        <p>Copyright 2024</p>
+        
+    </section>
+      
+    <script src="./script.js"></script>
+</body>
+</html>

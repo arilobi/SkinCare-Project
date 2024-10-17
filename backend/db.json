@@ -1,0 +1,33 @@
+{
+    "routines": [
+    {
+    "id": 1,
+    "title": "Dry Skin",
+    "description": "Dry skin makes the skin look and feel rough, itchy, flaky or scaly. The location where these dry patches form vary from person to person. It's a common condition that affects people of all ages",
+    "image": "images/dryskin.png",
+    "comments": [
+    "Just the information I needed!",
+    "This was so informative!"
+    ]
+    },
+    {
+    "id": 2,
+    "title": "Oily skin",
+    "description": "Those with an oily skin type typically experience skin that appears shiny or greasy and is prone to enlarged pores, along with blackheads and whiteheads, especially on the nose, chin, and forehead. These features typically result from the accumulation of excess oil, dead skin cells, and debris on the skin's surface",
+    "image": "images/oilyskin.png",
+    "comments": [
+    "Exactly what I needed to know more about my skin type",
+    "Thank you so much for this,"
+    ]
+    },
+    {
+    "id": 3,
+    "title": "Combination",
+    "description": "Combination skin means that there are some areas of your face that are dry and other areas of your face that are more oily",
+    "image": "images/combined.png",
+    "comments": [
+    "This has helped a lot!"
+    ]
+    }
+    ]
+    }
