@@ -14,6 +14,9 @@ The application includes a page that displays a skin care blog that gives tips o
 ## Live server
 * You can view the web live on [Skin Care Blog](https://arilobi.github.io/SkinCare-Project/)
 
+## Presentation slides link
+* You can view my google slides presentation here => https://docs.google.com/presentation/d/1A58XkDd_fon7WYSWHUHVTu4N3YvttrP1AlE9BvA1eO4/edit?usp=sharing
+
 ## Known Bugs
 The application works perfectly well, no bugs.
 
